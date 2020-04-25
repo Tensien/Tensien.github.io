@@ -1,0 +1,92 @@
+body {
+    font-family: 'Bangers', cursive;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #062a32;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 0;
+
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+
+.header__bar {
+    background: rgba(135,131,170,.7);
+
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:
+    20px;
+
+    max-height: 50px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 60px;
+
+    font-size: 27px;
+
+}
+
+.header__nav a {
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px;
+
+    transition: text-shadow .3s linear;
+}
+
+.header__nav a:hover {
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.header__logo {
+    text-align: center;
+    margin-top: -40px;
+    position: relative;
+}
+
+.logo__pic {
+    width: 70%;
+}
+
+.logo__quote {
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    top: 60%;
+
+}
+
+
+/* container */
+
+.container {
+    margin: 0 auto;
+    width: 920px;
+}
+
+.game {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
